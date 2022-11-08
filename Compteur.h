@@ -12,6 +12,7 @@
 
 class Compteur : public QWidget
 {
+    Q_OBJECT
 public:
     Compteur(QWidget *parent = nullptr);
 
@@ -20,6 +21,9 @@ private:
     QPushButton *plusUn;
     QGridLayout *laGrille;
     short valeurCompteur;
-};
 
+private slots:
+    void etDUn();
+
+};
 #endif //QTCOMPTEUR_COMPTEUR_H
