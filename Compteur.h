@@ -19,11 +19,13 @@ public:
 private:
     QLabel *affichageCompteur;
     QPushButton *plusUn;
+    QPushButton *remiseAZero;
     QGridLayout *laGrille;
     short valeurCompteur;
 
 private slots:
     void etDUn();
+    void raz();
 
 };
 #endif //QTCOMPTEUR_COMPTEUR_H
