@@ -5,6 +5,7 @@
 #ifndef QTCOMPTEUR_COMPTEUR_H
 #define QTCOMPTEUR_COMPTEUR_H
 
+#include <QGridLayout>
 #include <QLabel>
 #include <QPushButton>
 #include <QWidget>
@@ -17,6 +18,7 @@ public:
 private:
     QLabel *affichageCompteur;
     QPushButton *plusUn;
+    QGridLayout *laGrille;
     short valeurCompteur;
 };
 
